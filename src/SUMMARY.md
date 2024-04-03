@@ -15,3 +15,16 @@
 
 - [Unit 2 - Basic Data Types and Packages]()
     - [Literals & Abstract Data Types](src/Unit2/0-literals-and-abstract-data-types.md)
+    - [Lists/Array Methods](src/Unit2/0.5-array-methods.md)
+    - [String Manipulation](src/Unit2/1-string-manipulation.md)
+
+- [Unit 3 - Control Structures]()
+    - [Loops](src/Unit3/0.loops.md)
+    - [Functions](src/Unit3/1-functions.md)
+    - [Function Call Stack](src/Unit3/2-function-call-stack.md)
+
+- [Unit 4 - Computational Problems & Algorithms]()
+    - [Space & Time Complexity; Asymptotic Notation]()
+    - [Searching Algorithms]()
+    - [Sorting Algorithms]()
+
