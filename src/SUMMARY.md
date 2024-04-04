@@ -25,6 +25,6 @@
 
 - [Unit 4 - Computational Problems & Algorithms]()
     - [Space & Time Complexity; Asymptotic Notation](src/Unit4/0-space-and-time-complexity.md)
-    - [Searching Algorithms]()
-    - [Sorting Algorithms]()
+    - [Searching Algorithms](src/Unit4/1-searching-algorithms.md)
+    - [Sorting Algorithms](src/Unit4/2-sorting-algorithms.md)
 
