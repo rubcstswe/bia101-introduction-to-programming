@@ -97,9 +97,9 @@ x = 5
 y = 10
 
 if x > 5 and y < 15:
-    print("Both conditions are True")  # This line will be executed
+    print("Both conditions are True")  
 else:
-    print("At least one condition is False")
+    print("At least one condition is False") # This line will be executed
 
 # =================
 # Example 2 - Nested if-else
@@ -120,14 +120,16 @@ y = 10
 
 if x > 5:
     if y > 5:
-        print("Both x and y are greater than 5")  # This line will be executed
+        print("Both x and y are greater than 5")  
     else:
         print("x is greater than 5, but y is not")
 else:
-    print("x is not greater than 5")
+    print("x is not greater than 5") # This line will be executed
 
 # =================
 # More if inside if example
+x = 6
+y = 10
 if x > 5:
     if y < 5:
         print("Both x and y are greater than 5")  
@@ -139,7 +141,7 @@ else:
 # =================
 # Example 4 - Using not operator
 x = 5
-y = 10
+a = 10
 if not x == a:
     print("x is not equal to a")  # This line will be executed
 else:
@@ -147,6 +149,8 @@ else:
 
 # =================
 # Example 5 - Using or operator
+x = 4
+y = 10
 if x > 5 or y > 5:
     print("At least one of the conditions is True")  # This line will be executed
 else:
@@ -154,6 +158,13 @@ else:
 
 # =================
 # Example 6 - Using not operator
+x = 6
+y = 10
+# x == 6 will be false
+# y == 10 will be true
+# The operations insdie the brackets() will be False as both are not True in the `and` operation
+
+# Therefore, `not False` will evaluate to True
 if not (x == 5 and y == 10):
     print("x is not equal to 5 and y is not equal to 10")  # This line will be executed
 else:
@@ -161,15 +172,15 @@ else:
 
 # =================
 # Example 7 - Triple nested if statement
-x = 5
+x = 6
 y = 10
 
 if x > 5:
     if y > 5:
         if x + y > 15:
-            print("x, y, and their sum are greater than 5")  
+            print("x, y, and their sum are greater than 5") # This line will be executed
         else:
-            print("x, y are greater than 5, but their sum is not greater than 15") # This line will be executed
+            print("x, y are greater than 5, but their sum is not greater than 15") 
     else:
         print("x is greater than 5, but y is not")
 else:

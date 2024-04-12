@@ -86,11 +86,14 @@ Just like array indexing, you can access elements and slice elements from a stri
 
 ```python
 # ===================
+# NOTE: Even spaces (be it single or double spaces are counted too)
+# E.g: "Hello World" has 11 characters (len("Hello World") = 11) and the index starts from 0 to 10
+
 # Basic Slicing
 text = "Python Programming"
 # Extracts characters from index 2 (inclusive) to index 7 (exclusive).
 sliced_text = text[2:8]
-print(sliced_text)  # Output: thon Pro
+print(sliced_text)  # Output: thon P
 
 # ===================
 # Slicing from beginning
@@ -101,12 +104,12 @@ print(sliced_text)  # Output: Hello
 # ===================
 # Slicing from end:
 text = "Welcome Back"
-sliced_text = text[-4:]
+sliced_text = text[-4:] # From behind the index starts from -1, -2, -3, ...
 print(sliced_text)  # Output: Back
 
 # ===================
 # Reversing a string:
 text = "Never say never"
-sliced_text = text[::-1]
+sliced_text = text[::-1] # start, stop, step 
 print(sliced_text)  # Output: rven ays revaN
 ```

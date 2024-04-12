@@ -195,7 +195,7 @@ for i in range (1, len(input)):
     for j in range(1, len(input)):
         break
         a.append(j)
-        print(j)
+    print(j)
 
 # Time: O(n) # the inside for loop is not executed because of the for loop
 # Space: O(1) # The append function is never executed
@@ -211,5 +211,6 @@ for i in range (1, len(input)):
 
 # Time: O(n^2) # Actually it's (n^2 - 1) because of the continue statement
     # but as n tends to infinity, the -1 becomes insignificant, therefore the time complexity is O(n^2)
+    # "infinity ^ 2 - 1" is no different than "infinity ^ 2"
 # Space: O(1) 
 ```

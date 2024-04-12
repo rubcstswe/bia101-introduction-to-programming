@@ -33,7 +33,7 @@ def add(a, b):
     return sum # the vale of `sum` is returned to whereever the function was called from
 
 # The function returns a value which is captured/stored in an another variable
-result = add(3, 5) 
+result = add(3, 5) # Pass the values 3, 5 to the function called "add"
 print(result)  # Output: 8
 
 # =======================================
@@ -53,14 +53,14 @@ def greet_person(name="Human", age=0):
 
 greet_person()  # Output: Hello, Human! You are 0 years old.
 greet_person(age=25, name="Alice")  # Output: Hello, Alice! You are 25 years old.
-# In the code above with keyword arguments, the order of the arguments does not matter
+# In the code above with keyword arguments, the order/sequence of the arguments does not matter
 
 # =======================================
 # Function with positional arguments
 def greet_person(name, age):
     print(f"Hello, {name}! You are {age} years old.")
 
-# The order matters here
+# The order/sequence matters here
 greet_person("Alice", 25)  # Output: Hello, Alice! You are 25 years old.
 
 # =======================================
