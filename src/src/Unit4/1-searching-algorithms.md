@@ -114,7 +114,7 @@ mid = (0 + 4) // 2 = 2 (index of 5)
 5 < 7, so we update low = mid + 1 = 3
 
 List: [1, 3, 5, 7, 9]
-          low      high
+               low high
 
 Iteration 2:
 mid = (3 + 4) // 2 = 3 (index of 7)
